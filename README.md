@@ -37,7 +37,7 @@ python train.py
               precision    recall  f1-score   support
      female       0.95      0.92      0.94       150
        male       0.93      0.96      0.95       160
-    accuracy                           0.94       310
+    accuracy                          0.94       310
 
 
 🛠 Dependencies

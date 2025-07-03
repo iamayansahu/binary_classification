@@ -1,7 +1,9 @@
 # binary_classification
 A PyTorch-based binary image classification project with pretrained models, data augmentation, class imbalance handling, and evaluation/inference support.
 Gender Classification using CNN (ResNet18).
+
 **Dataset link**: https://drive.google.com/file/d/1u3N-01BSv9ARruveQdCqsgOEzIiqLkTq/view?usp=drive_link
+
 This project implements a deep learning model to classify gender (male / female) from face images using *PyTorch* and *ResNet18*. The training pipeline handles class imbalance with a *weighted sampler* and *weighted loss*, and applies various data augmentations for better generalization.
 ## Features & Techniques Used
 
@@ -33,14 +35,14 @@ python train.py
 
 📦 Epoch [30/30] - Loss: 0.2408
 
-📊 Classification Report:
+# 📊 Classification Report:
               precision    recall  f1-score   support
      female       0.95      0.92      0.94       150
        male       0.93      0.96      0.95       160
     accuracy                          0.94       310
 
 
-🛠 Dependencies
+# Dependencies
 
 torch
 
@@ -52,7 +54,6 @@ numpy
 
 PIL
 
-
-Install them using:
+**Install them using:**
 
 pip install torch torchvision scikit-learn numpy pillow

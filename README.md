@@ -35,13 +35,26 @@ python train.py
 
 📦 Epoch [30/30] - Loss: 0.2408
 
-# 📊 Classification Report:
+# 📊 Training Classification Report:
               precision    recall  f1-score   support
-     female       0.95      0.92      0.94       150
-       male       0.93      0.96      0.95       160
-    accuracy                          0.94       310
+     female       0.94      0.88      0.91       1528
+       male       0.89      0.94      0.91       1528
+    accuracy                          0.91       3056
 
 
+    Training Accuracy: 90.97 %
+
+
+# 📊 Valid Classification Report:
+              precision    recall  f1-score   support
+     female       0.69      0.85      0.76       79
+       male       0.96      0.91      0.94       343
+    accuracy                          0.90       422
+
+
+    Validation Accuracy: 90.05%
+    
+    
 # Dependencies
 
 torch

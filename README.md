@@ -45,7 +45,7 @@ python train.py
     Training Accuracy: 90.97 %
 
 
-# 📊 Valid Classification Report:
+# 📊 Validation Classification Report:
               precision    recall  f1-score   support
      female       0.69      0.85      0.76       79
        male       0.96      0.91      0.94       343
